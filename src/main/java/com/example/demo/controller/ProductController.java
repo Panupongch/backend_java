@@ -76,7 +76,7 @@ public class ProductController {
 			}
 		}
 		
-		return "Employee not found";
+		return "Product not found";
 	}
 	
 }
