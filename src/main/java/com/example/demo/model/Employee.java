@@ -2,13 +2,13 @@ package com.example.demo.model;
 
 public class Employee {
 	
-	private String employeeId;
+	private Integer employeeId;
 	private String firstName;
 	private String lastName;
 	private String salary;
 	
 	
-	public Employee(String employeeId, String firstName, String lastName, String salary) {
+	public Employee(Integer employeeId, String firstName, String lastName, String salary) {
 		super();
 		this.employeeId = employeeId;
 		this.firstName = firstName;
@@ -18,10 +18,10 @@ public class Employee {
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
-	public String getEmployeeId() {
+	public Integer getEmployeeId() {
 		return employeeId;
 	}
-	public void setEmployeeId(String employeeId) {
+	public void setEmployeeId(Integer employeeId) {
 		this.employeeId = employeeId;
 	}
 	public String getFirstName() {
